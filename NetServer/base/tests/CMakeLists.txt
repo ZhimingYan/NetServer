@@ -1,0 +1,6 @@
+add_executable(timestamp_unittest Timestamp_unittest.cc )
+target_link_libraries(timestamp_unittest libserver_base)
+add_executable(LoggingTest LoggingTest.cpp )
+target_link_libraries(LoggingTest libserver_base)
+add_executable(AsyccLoging_test AsyccLoging_test.cpp)
+target_link_libraries(AsyccLoging_test libserver_base)

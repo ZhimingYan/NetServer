@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NetServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\NetServer\;CMake Files\NetServer\base\;CMake Files\NetServer\base\tests\;CMake Files\NetServer\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_base">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/lib/libserver_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 libserver_base"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_base/fast">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/lib/libserver_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 libserver_base/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timestamp_unittest">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/timestamp_unittest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 timestamp_unittest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timestamp_unittest/fast">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/timestamp_unittest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 timestamp_unittest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsyccLoging_test">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/AsyccLoging_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 AsyccLoging_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsyccLoging_test/fast">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/AsyccLoging_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 AsyccLoging_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoggingTest">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/LoggingTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 LoggingTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoggingTest/fast">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/LoggingTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 LoggingTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetServer">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/NetServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/home/yzm/ClionProjects/NetServer/base"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 NetServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetServer/fast">
+				<Option output="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin/NetServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzm/ClionProjects/NetServer/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzm/ClionProjects/NetServer"/>
+					<Add directory="/home/yzm/ClionProjects/NetServer/base"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 NetServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Channel.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Channel.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Epoll.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Epoll.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoop.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoop.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoopThread.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoopThread.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoopThreadPool.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/EventLoopThreadPool.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/HttpData.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/HttpData.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Main.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Server.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Server.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/ThreadPool.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/ThreadPool.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Timer.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Timer.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Util.cpp">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/Util.h">
+			<Option target="NetServer"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/AsyncLogging.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/AsyncLogging.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Atomic.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Condition.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/CountDownLatch.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/CountDownLatch.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/CurrentThread.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/FileUtil.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/FileUtil.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/LogFile.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/LogFile.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/LogStream.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/LogStream.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Logging.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Logging.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/MutexLock.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Thread.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Thread.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/ThreadPool.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/ThreadPool.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Timestamp.cc">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/Timestamp.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/tests/AsyccLoging_test.cpp">
+			<Option target="AsyccLoging_test"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/tests/LoggingTest.cpp">
+			<Option target="LoggingTest"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/tests/Timestamp_unittest.cc">
+			<Option target="timestamp_unittest"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\NetServer\"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\NetServer\base\"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/base/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\NetServer\base\tests\"/>
+		</Unit>
+		<Unit filename="/home/yzm/ClionProjects/NetServer/NetServer/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\NetServer\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

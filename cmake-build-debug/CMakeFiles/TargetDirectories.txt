@@ -1,0 +1,15 @@
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/CMakeFiles/rebuild_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/CMakeFiles/libserver_base.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/CMakeFiles/edit_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/CMakeFiles/rebuild_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/CMakeFiles/edit_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/CMakeFiles/timestamp_unittest.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/CMakeFiles/AsyccLoging_test.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/base/tests/CMakeFiles/LoggingTest.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/tests/CMakeFiles/rebuild_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/tests/CMakeFiles/edit_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/CMakeFiles/rebuild_cache.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/CMakeFiles/NetServer.dir
+/home/yzm/ClionProjects/NetServer/cmake-build-debug/NetServer/CMakeFiles/edit_cache.dir

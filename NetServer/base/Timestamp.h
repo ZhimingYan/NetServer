@@ -1,3 +1,6 @@
+// @Author ZhimingYan
+// @Email yanzhiming0211@163.com
+
 #ifndef NETSERVER_TIMESTAMP_H
 #define NETSERVER_TIMESTAMP_H
 

@@ -1,0 +1,1 @@
+g++  -g -Wall -std=c++11 -D_PTHREADS -Wno-unused-parameter -O0   CMakeFiles/AsyccLoging_test.dir/AsyccLoging_test.cpp.o  -o ../../../bin/AsyccLoging_test ../../../lib/libserver_base.a -lpthread -lrt 

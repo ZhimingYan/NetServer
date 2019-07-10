@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yzm/CLionProjects/NetServer/NetServer/Util.cpp
+Util.h
+/home/yzm/CLionProjects/NetServer/NetServer/Util.h
+unistd.h
+-
+fcntl.h
+-
+signal.h
+-
+errno.h
+-
+string.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netinet/tcp.h
+-
+iostream
+-
+
+/home/yzm/CLionProjects/NetServer/NetServer/Util.h
+cstdlib
+-
+string
+-
+

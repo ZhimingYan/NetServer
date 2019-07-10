@@ -1,0 +1,29 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1561885326000)
++++ .idea/vcs.xml	(date 1561885326000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: NetServer/base/Timestamp.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NetServer/base/Timestamp.h	(revision a7463f302abbec66d67db9c387ae5bfe91c6d5b1)
++++ NetServer/base/Timestamp.h	(date 1561885326000)
+@@ -1,3 +1,6 @@
++// @Author ZhimingYan
++// @Email yanzhiming0211@163.com
++
+ #ifndef NETSERVER_TIMESTAMP_H
+ #define NETSERVER_TIMESTAMP_H
+ 
